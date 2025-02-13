@@ -17,9 +17,8 @@ function App() {
       <div className="w-full h-screen bg-white min-[1023px]:bg-transparent bg-opacity-60 transition-all duration-150">
         <div
           className={`${
-            isDropdownOpen
-              ? "bg-black bg-opacity-50 w-full h-screen absolute top-0 left-0"
-              : ""
+            isDropdownOpen &&
+            "bg-black bg-opacity-50 w-full h-screen absolute top-0 left-0"
           }`}
         >
           <div
