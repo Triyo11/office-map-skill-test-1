@@ -30,7 +30,7 @@ function App() {
           >
             <div className="bg-white h-screen flex flex-col justify-start items-start pt-9 pl-9 gap-10">
               <button className="" onClick={() => setIsDropdownOpen(false)}>
-                <img src={cross} alt="cross" />
+                <img src={cross} alt="cross icon" />
               </button>
               <ul className="flex flex-col items-start gap-10">
                 {menu.map((item) => (
@@ -52,7 +52,7 @@ function App() {
             }}
             className="block min-[1023px]:hidden pl-5 mt-[39px]"
           >
-            <img src={humberger} alt="icon dropdown" />
+            <img src={humberger} alt="humberger icon" />
           </button>
           <nav
             className="w-full flex justify-between min-[1023px]:justify-end items-center mt-[35px]"
